@@ -22,7 +22,7 @@ jobs:
           - domain: quay.io
             account: rockylinux
             secret: QUAY
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     name: Build and push toolbox images
     steps:
       - uses: actions/checkout@v3
